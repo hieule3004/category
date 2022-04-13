@@ -34,7 +34,7 @@ join :: (r -> r -> a) -> (r -> a) = W
 - T = CI
 - A = KI
 - M = WI
-- 
+
 ### References
 - [] https://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 - [] https://en.wikibooks.org/wiki/Haskell/Category_theory#Monads
