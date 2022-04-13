@@ -1,11 +1,22 @@
 # combinator: monad perspective
 
 ### Abstract
-Relation:
-
+#### Relation
 \* SKI system -> Applicative
 
 \* BCKW system -> Monad
+
+#### Lambda calculus
+\* variables have arbitrary type
+- combinators have arbitrary arity
+
+\* combinators are total function (no abstraction)
+- variable: simple argument return (command no args) e.g. I, K
+- application: (command with args) the return type of combinator is return type of the command
+- Corollary: at most 1 argument (function/variable) act as command
+    - new return type to maximise generality of applicable function
+    - unique due to constructive proof: if there are 2 such functions (e.g a -> c and b -> c), then a merge function must exist (e.g. c -> c -> d) then d is the new return type.
+
 
 ### Monad
 \* Functor -> Applicative -> Monad
