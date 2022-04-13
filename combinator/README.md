@@ -1,4 +1,4 @@
-# category
+# combinator: monad perspective
 
 ### Abstract
 Relation:
