@@ -16,6 +16,9 @@
 - Corollary: at most 1 argument (function/variable) act as command
     - new return type to maximise generality of applicable function
     - unique due to constructive proof: if there are 2 such functions (e.g a -> c and b -> c), then a merge function must exist (e.g. c -> c -> d) then d is the new return type.
+- corollary: possible to define once removed algorithmically
+    - replace command with free variable; add that variable as first arg to old command to make new command type signature; add new command as first arg of combinator to make once removed combinator
+    - issue: command calling itself (e.g. a -> b -> b), which free more type constraint than simple combinator
 
 
 ### Monad
