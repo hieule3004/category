@@ -40,6 +40,11 @@
 - Example: iteration vs recursion
 - Machine instruction or human readable code
 
+### Bonus: SOLID
+- 5 principles put constraints to get better code
+    - language objects: class, module, method, etc. should all be considered to use SOLID
+- Dependency inversion support late binding.
+
 
 ### References
 1. https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
