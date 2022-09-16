@@ -8,3 +8,4 @@ Abstract
 - [OOP: the right way](oop.md)
 - [FP: demystified](fp.md)
 - [Basics of science](science.md)
+- [Thought on operators](operator.md)
