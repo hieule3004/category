@@ -26,16 +26,16 @@
 
 \* Function type (simplified Reader monad) (->) r
 - Function
-id :: a -> a = I
-flip :: (b -> a -> c) -> a -> b -> c = C
+    + id :: a -> a = I
+    + flip :: (b -> a -> c) -> a -> b -> c = C
 - Functor
-fmap :: (a -> b) -> (r -> a) -> (r -> b) = B
+    + fmap :: (a -> b) -> (r -> a) -> (r -> b) = B
 - Applicative
-return :: a -> (r -> a) = K
-ap :: (r -> a -> b) -> (r -> a) -> (r -> b) = S
+    + return :: a -> (r -> a) = K
+    + ap :: (r -> a -> b) -> (r -> a) -> (r -> b) = S
 - Monad (category theory definition)
-unit :: a -> (r -> a) = K
-join :: (r -> r -> a) -> (r -> a) = W
+    + unit :: a -> (r -> a) = K
+    + join :: (r -> r -> a) -> (r -> a) = W
 
 \* Alternative to join: more practical usage (functional programming definition)
 - bind :: (r -> a) -> (a -> r -> b) -> (r -> b) = C (B S C)
