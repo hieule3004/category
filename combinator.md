@@ -28,6 +28,8 @@
 - Function
     + id :: a -> a = I
     + flip :: (b -> a -> c) -> a -> b -> c = C
+        _ (r -> a -> b) -> (a -> r -> b) => ap -> rbind
+        _ reverse control flow
 - Functor
     + fmap :: (a -> b) -> (r -> a) -> (r -> b) = B
 - Applicative
