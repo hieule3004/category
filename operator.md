@@ -1,4 +1,4 @@
-### n-ary
+### arity
 - 0, 1, 2 are important
     - 0: contructor
     - 1: map / transformer
@@ -6,8 +6,8 @@
 
 ### representation
 - crazy idea: ops on X are functor from Set to X
-    - still need much thinking on properties
-    - all sum, product, arrow type; different choice of function
+    - still need more understanding of properties
+    - all product, coproduct, pair type; different choice of function
     - e.g. +, *, ^ on N are just length function
 
 ### 1-properties
@@ -26,8 +26,9 @@
 ### 2-properties
 - closure: endomorphism
 - commutativity: paralel computation
+    - both log and root are inverse of exp due to non-commutativity
 - associativity: grouping / subexpression evaluation
     - maybe related lazyness / holed context (evidence?)
 - distributivity: 
-    - for some reason not very much researched
-        - at least to me this is evident tetration is not the correct direction for higher order operations, also binops are NOT repeated application of one others.
+    - for some reason not of of great interested
+    - this could be an evident that tetration is not the correct direction for higher order operations, also binops are NOT repeated application of one others
