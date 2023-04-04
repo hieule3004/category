@@ -38,3 +38,7 @@
 - inverse op have same precedence
 - precedence is proportional to 'compactness'
     - (informal) compactness take view from tetration and repetition
+- note
+    - parentheses have highest precedence by definition
+    - potentially, precedence is  perceived with space
+        - e.g. juxtaposition and fraction (/) implicitly bind stronger than multiplication (×)
