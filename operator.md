@@ -32,3 +32,9 @@
 - distributivity: 
     - for some reason not of of great interested
     - this could be an evident that tetration is not the correct direction for higher order operations, also binops are NOT repeated application of one others
+
+### Precedence
+- u-op bind stronger than bin-op naturally, as it won't change tree structure 
+- inverse op have same precedence
+- precedence is proportional to 'compactness'
+    - (informal) compactness take view from tetration and repetition
